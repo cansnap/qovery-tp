@@ -1,0 +1,229 @@
+
+/*---------------------------------------FONTS------------------------------------------*/
+
+/*---------------------------------------GENERAL------------------------------------------*/
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+body {
+    background-color: white;
+    min-width: 1440px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*---------------------------------------HEADER------------------------------------------*/
+
+Header {
+    background-color: #151b2b;
+}
+
+.Header {
+    margin-right: 7rem;
+    margin-left: 7rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.HeaderLeft {
+    margin-left: 250px;
+}
+
+a { 
+    text-decoration: none;
+
+}
+
+a :hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 2rem;
+    font-weight: lighter;
+}
+
+.HeaderPara {
+    color: #7e7fa9;
+    margin-left: 1rem;
+    font-size: 20px;
+}
+
+.HeaderLogo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.HeaderTitle {
+    margin-top: 2rem;
+    margin-bottom: 2rem;;
+    display: flex;
+    align-items: center;
+
+}
+
+.HeaderText {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.HeaderBtn {
+    display: flex;
+}
+
+.HeaderGraphic {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.Btn {
+    filter: invert(1);
+    margin-left: 0.5rem;
+}
+
+.ImgBtn {
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.TxtBtn {
+    display: flex;
+    align-items: center;
+}
+
+
+.StarBtn {
+    border: solid white 1px;
+    padding-top: 0.4rem;
+    padding-bottom: 0.1rem;
+    margin-left: 2rem;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.GitBtn, .DiscordBtn {
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+}
+
+.GitBtn {
+    border: solid #46465b 1px;
+    background-color: #46465b;
+    margin-right: 1rem;
+}
+
+.DiscordBtn {
+    border: solid #6578c0 1px;
+    background-color: #6578c0;
+}
+
+.Git :hover {
+    background-color: #5c5c78;
+}
+
+.Discord :hover {
+    background-color: #4e5f9b;
+}
+
+
+/*---------------------------------------MAIN ONE------------------------------------------*/
+
+.Main {
+    text-align: center;
+}
+
+.MainHow {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.MainUsage {
+    display: flex;
+    flex-direction: column;
+}
+
+.MainBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+/*---------------------------------------MAIN TWO------------------------------------------*/
+
+.MainTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+}
+
+.ArticleCol {
+    text-align: left; 
+}
+
+.ArticleCol2 {
+    text-align: left;
+    padding-left: 60px; 
+}
+
+
+.LinkCol {
+    color: #5d64d2;
+}
+
+.ArticlePara {
+    padding-top: 2rem;
+}
+
+.ArticleGraphic {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.MainThree {
+    padding-bottom: 3rem;
+}
+
+.Right {
+    margin-right: 80px;
+}
+
+/*---------------------------------------FOOTER------------------------------------------*/
+
+.Footer {
+    background-color: #151b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.Client {
+    margin-block: 1rem;
+}
